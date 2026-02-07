@@ -8,6 +8,25 @@ A professional desktop application for analyzing historical sales data and forec
 
 ---
 
+## 🖼️ Screenshots of App After Installation
+
+<p align="center">
+  <img src="src/Markdown_img/Image_1.png" alt="Welcome Screen" width="400"/>
+  <img src="src/Markdown_img/Image_2.png" alt="Sales Dashboard" width="400"/>
+</p>
+
+<p align="center">
+  <img src="src/Markdown_img/Image_3.png" alt="CSV Loaded" width="400"/>
+  <img src="src/Markdown_img/Image_4.png" alt="Top Customers" width="400"/>
+</p>
+
+<p align="center">
+  <img src="src/Markdown_img/Image_5.png" alt="Regional Sales" width="400"/>
+  <img src="src/Markdown_img/Image_6.png" alt="Sales Forecast" width="400"/>
+</p>
+
+---
+
 ## ✨ Features
 
 | Feature | Description |
@@ -145,12 +164,14 @@ Date,Product,Customer,Quantity,Price,Region
 
 ```
 Sales-Analysis-Project/
-├── 🚀 Sales_Analysis_Project_app.py    # Main GUI application (recommended)
-├── 📊 Sales_Analysis_Project.py        # Core analysis functions
-├── 📋 sales_data.csv                   # Sample dataset (35 transactions)
-├── 📦 requirements.txt                 # Python dependencies
-├── 📖 README.md                        # This documentation
-└── 📜 LICENSE                          # MIT License file
+├── src/
+│   ├── Sales_Analysis_Project_app.py    # Main GUI application
+│   ├── Sales_Analysis_Project.py        # Core analysis functions
+│   └── sales_data.csv                    # Sample dataset (35 transactions)
+├── requirements.txt                      # Python dependencies
+├── README.md                              # Project documentation
+└── LICENSE                                # License file
+
 ```
 
 ---
@@ -184,17 +205,17 @@ Sales-Analysis-Project/
 ## 🛠️ Technologies Used
 
 ```
-┌─────────────────────────────────────────────┐
-│           Core Technologies                  │
-├─────────────────────────────────────────────┤
-│ 🐍 Python 3.8+       • Programming Language │
-│ 🪟 Tkinter           • Desktop GUI Framework │
-│ 📊 Pandas            • Data Processing      │
-│ 📈 Matplotlib        • Visualization        │
-│ 📉 Seaborn           • Statistical Graphics │
-│ 🔮 Statsmodels       • Time Series Forecast │
-│ 🔧 PyInstaller       • Executable Bundling  │
-└─────────────────────────────────────────────┘
+Technology        : Purpose
+----------------------------
+🐍 Python 3.8+    : Programming Language
+🪟 Tkinter        : Desktop GUI Framework
+📊 Pandas         : Data Processing
+📈 Matplotlib     : Visualization
+📉 Seaborn        : Statistical Graphics
+🔮 Statsmodels    : Time Series Forecasting
+🔧 PyInstaller    : Executable Bundling
+
+
 ```
 
 ---
@@ -227,7 +248,7 @@ forecast = forecast_sales(monthly_sales)
 
 ## 🐛 Troubleshooting
 
-### ❌ Problem: ModuleNotFoundError
+### Problem: ModuleNotFoundError
 **Error:** `ModuleNotFoundError: No module named 'pandas'`
 
 **Solution:** Install all dependencies:
@@ -235,7 +256,7 @@ forecast = forecast_sales(monthly_sales)
 pip install -r requirements.txt
 ```
 
-### ❌ Problem: GUI Won't Open
+### Problem: GUI Won't Open
 **Error:** Window doesn't appear when running the app
 
 **Solution:** Ensure Tkinter is installed:
@@ -243,7 +264,7 @@ pip install -r requirements.txt
 - **Linux:** Run `sudo apt-get install python3-tk`
 - **macOS:** Run `brew install python3-tk`
 
-### ❌ Problem: CSV File Won't Load
+### Problem: CSV File Won't Load
 **Error:** File loads but data is incorrect
 
 **Solution:** Verify:
@@ -252,7 +273,7 @@ pip install -r requirements.txt
 - ✓ No empty rows in the middle of data
 - ✓ File encoding is UTF-8
 
-### ❌ Problem: Forecast Won't Generate
+### Problem: Forecast Won't Generate
 **Error:** Error during forecasting
 
 **Solution:**
@@ -307,4 +328,4 @@ If you find this project helpful, please:
 
 ---
 
-**Made with ❤️ using Python** | February 2026
+**Made with ❤️ & 🐍 by SUSHIL.RK , Driven by AI** 
