@@ -1,9 +1,6 @@
 # 📊 Sales Forecasting App
 
 > **Turning data into insights** 💡
-# 📊 Sales Forecasting App
-
-> **Turning data into insights** 💡
 
 A professional desktop application for analyzing historical sales data and forecasting future sales with an intuitive GUI. Built with Python and Tkinter, the app provides comprehensive sales insights and predictive analytics using advanced time series forecasting.
 
@@ -31,17 +28,6 @@ A professional desktop application for analyzing historical sales data and forec
 ---
 
 ## ✨ Features
-## ✨ Features
-
-| Feature | Description |
-|---------|-------------|
-| 📁 **Data Import** | Load sales data from CSV files or use the included sample dataset |
-| 📈 **Sales Analysis** | Visualize monthly sales trends and identify top-performing products & customers |
-| 🗺️ **Regional Insights** | Analyze sales distribution across different geographic regions |
-| 🔮 **Sales Forecasting** | Predict the next 6 months using Holt-Winters Exponential Smoothing |
-| 💡 **Key Insights** | Display important metrics and statistics in interactive popups |
-| 🎨 **Interactive GUI** | User-friendly Tkinter interface with responsive, intuitive design |
-| 🧹 **Data Cleaning** | Automatic removal of duplicates and comprehensive date validation |
 | Feature | Description |
 |---------|-------------|
 | 📁 **Data Import** | Load sales data from CSV files or use the included sample dataset |
@@ -54,18 +40,6 @@ A professional desktop application for analyzing historical sales data and forec
 
 ---
 
-## 📋 Prerequisites
-
-| Requirement | Version |
-|------------|---------|
-| **Python** | 3.8 or higher |
-| **pandas** | Data manipulation and analysis |
-| **matplotlib** | Plotting and visualization |
-| **seaborn** | Statistical data visualization |
-| **statsmodels** | Time series forecasting |
-| **tkinter** | GUI framework (included with Python) |
-
-### 📦 Install Dependencies
 ## 📋 Prerequisites
 
 | Requirement | Version |
